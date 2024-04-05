@@ -16,7 +16,7 @@ public class TesteWeb {
     public void inicializaTeste(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get("https://automationexercise.com/");
+        driver.get("https://www.chronosacademy.com.br/");
 
     }
     @Test
